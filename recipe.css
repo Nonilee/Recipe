@@ -1,0 +1,178 @@
+*{
+   
+    box-sizing: border-box;
+}
+
+body{
+    background:  hsl(330, 100%, 98%) ;
+    
+    
+}
+main{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+
+}
+
+p , .time, ul,span {
+  font-family: "Outfit", sans-serif;
+  
+}
+ li, h2  {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.recipe img{
+   padding: .5em;
+    width: 620px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+    
+}
+
+#card{
+    background: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    padding: .9rem;
+    width: 660px;
+  
+    
+    
+}
+
+.header h1{
+   padding-left: 1rem;
+}
+
+.header p{
+   padding-left: 1rem;
+   line-height: 1.3rem;
+   font-size: .8rem;
+   font-weight: 500;
+}
+
+.time{
+    border-radius: 12px;
+    margin: 1.5rem;
+    border: 1px solid   hsl(330, 100%, 98%);
+    background:  hsl(330, 100%, 98%);
+
+}
+
+.time h4{
+     padding-left: 1rem;
+     color:  hsl(332, 51%, 32%);
+    
+}
+
+.time ul{
+    margin-top: -.8rem;
+    line-height: 1.5rem;
+}
+
+.time ul li{
+    padding-left: 1rem;
+}
+
+span{
+    font-weight: 700;
+}
+
+.ingredients{
+    border-bottom: 1px solid black;
+    line-height: 1.5rem;
+    
+    
+}
+
+.ingredients h2{
+     font-weight:900;
+     color:  hsl(14, 45%, 36%);
+     padding-left: 1rem;
+}
+
+.ingredients ::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul{
+    margin-top: -.8rem;
+     
+}
+
+.ingredients li{
+    padding-left: .5rem;
+}
+
+.instruction{
+    border-bottom: 1px solid black;
+    line-height: 1.5rem;
+}
+
+.instruction ::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.instruction h2{
+     font-weight:900;
+    padding-left: .6rem;
+    color: hsl(14, 45%, 36%);
+}
+
+.instruction ol {
+    margin-top: -8px;
+}
+
+.instruction li{
+    padding-left: 10px;
+}
+
+
+
+.nutrition h2{
+   font-weight:900;
+   padding-left: 12px;
+    color: hsl(14, 45%, 36%);
+}
+
+
+#class {
+    border-bottom: 1px solid black;
+}
+
+#class p {
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.item{
+    padding-left: 200px;
+      color: hsl(14, 45%, 36%);
+}
+
+.item2{
+    padding-left: 230px;
+      color: hsl(14, 45%, 36%);
+}
+
+.item1{
+    padding-left: 216px;
+      color: hsl(14, 45%, 36%);
+}
+
+@media all and (max-width: 375px) {
+     
+}
+
+
+
